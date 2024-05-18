@@ -8,6 +8,7 @@ import STEPSLG from "../public/steps-01.webp";
 import WATERFALLLG from "../public/waterfall-01.webp";
 import WOMAN from "../public/woman.webp";
 import MAN from "../public/man.webp";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
   return (

@@ -1,10 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import HEROBGPROD from '../../public/herobg-prod.webp'
 import WALLSTONE1 from '../../public/wallstone-1.webp'
 import WALLSTONE2 from '../../public/wallstone-sm-1.webp'
 import WALLSTONE3 from '../../public/wallstone-sm-2.webp'
 import WALLSTONE4 from '../../public/wallstone-sm-3.webp'
+import PROD1 from '../../public/prod-4.webp'
+import PROD2 from '../../public/prod5.webp'
+import PROD3 from '../../public/prod6.webp'
+import PROD4 from '../../public/prod7.webp'
 
 const Products = () => {
   return (
@@ -24,9 +29,24 @@ const Products = () => {
         <h1 className='text-3xl'>Long-Lasting Wall Solutions: Cape Cod Hardscapes Wallstones</h1>
         <p className='text-sm'>Transform your Cape Cod landscape with the timeless beauty and enduring strength of Cape Cod Hardscapes wallstone products. We offer a diverse selection of wallstones to suit any style and function, from natural fieldstone for a rustic charm to tumbled colonial wallstone for a classic elegance. Our extensive inventory ensures youll find the perfect size, color, and texture to bring your vision to life. Whether youre building a majestic retaining wall, creating raised garden beds, or defining elegant garden borders, Cape Cod Hardscapes has the perfect wallstone solution to elevate your outdoor space and enhance your Cape Cod propertys value.</p>
         <div className='flex mt-[1rem] gap-3 flex-wrap'>
-          <Image src={WALLSTONE2} alt='a stone retaining wall with small New England Round Wallstone at a house in Chatham, Massachusetts' width={150} height={150} />
-          <Image src={WALLSTONE3} alt='a stone retaining wall with small New England Round Wallstone at a house in Chatham, Massachusetts' width={150} height={150} />
-          <Image src={WALLSTONE4} alt='a stone retaining wall with small New England Round Wallstone at a house in Chatham, Massachusetts' width={150} height={150} />
+          <Image src={WALLSTONE2} alt='Pennsylvania Fieldstone Wall Stone in a cape cod yard' width={150} height={150} />
+          <Image src={WALLSTONE3} alt='Tumbled Colonial Wallstone wallstone in a cape cod yard' width={150} height={150} />
+          <Image src={WALLSTONE4} alt='North Mountain Granite Wallstone in a Cape Cod yard' width={150} height={150} />
+        </div>
+      </div>
+    </div>
+
+    <div className='flex w-full justify-between px-[5%] py-[1%] mt-[5rem] flex-wrap gap-6'>
+      <div className='lg:flex-1 w-full'>
+        <Image src={PROD1} alt='a stone retaining wall with small New England Round Wallstone at a house in Chatham, Massachusetts' className='lg:w-300 lg:h-300 w-full h-full' />
+      </div>
+      <div className='flex-1'>
+        <h1 className='text-3xl'>Elevate Your Cape Cod Entryway with Durable Granite Steps & Treads</h1>
+        <p className='text-sm'>For a timeless and elegant touch that complements the Cape Cod aesthetic, consider incorporating granite steps and treads into your hardscape design. Granites natural beauty and exceptional durability make it a perfect choice for exterior applications. It weathers the harsh New England winters with ease, ensuring a long-lasting and low-maintenance upgrade to your propertys facade.</p>
+        <div className='flex mt-[1rem] gap-3 flex-wrap'>
+          <Image src={PROD2} alt='Antique Granite Steps in a Cape Cod cottage' width={150} height={150} />
+          <Image src={PROD3} alt='Sierra Tan Steps in a Cape Cod yard' width={150} height={150} />
+          <Image src={PROD4} alt='Pennsylvania Fieldstone Steps in a Cape Cod Yard' width={150} height={150} />
         </div>
       </div>
     </div>
