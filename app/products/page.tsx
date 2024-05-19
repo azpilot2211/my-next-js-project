@@ -62,7 +62,7 @@ const Products = () => {
       </div>
       <div className='flex-1'>
         <h1 className='text-3xl'>Crafted Beauty & Durability: Cape Cod Hardscape Pavers</h1>
-        <p className='text-sm'>Transform your Cape Cod outdoor space with the timeless appeal and enduring strength of pavers. Unlike traditional materials, pavers offer unmatched versatility and resilience, perfectly suited for Cape Cod's weather conditions. They create a charming and inviting atmosphere for patios, walkways, driveways, and pool decks, all while requiring minimal maintenance.</p>
+        <p className='text-sm'>Transform your Cape Cod outdoor space with the timeless appeal and enduring strength of pavers. Unlike traditional materials, pavers offer unmatched versatility and resilience, perfectly suited for Cape Cods weather conditions. They create a charming and inviting atmosphere for patios, walkways, driveways, and pool decks, all while requiring minimal maintenance.</p>
         <div className='flex mt-[1rem] gap-3 flex-wrap'>
           <Image src={PROD9} alt='Pine Hall Brick Pavers in a Cape Cod Drivewy' width={150} height={150} />
           <Image src={PROD10} alt='City Hall Brick Pavers in a Cape Cod driveway' width={150} height={150} />
