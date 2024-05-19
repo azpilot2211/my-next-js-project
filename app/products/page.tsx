@@ -10,6 +10,11 @@ import PROD1 from '../../public/prod-4.webp'
 import PROD2 from '../../public/prod5.webp'
 import PROD3 from '../../public/prod6.webp'
 import PROD4 from '../../public/prod7.webp'
+import PROD8 from '../../public/prod8.webp'
+import PROD9 from '../../public/prod9.webp'
+import PROD10 from '../../public/prod10.webp'
+import PROD11 from '../../public/prod11.webp'
+
 
 const Products = () => {
   return (
@@ -47,6 +52,21 @@ const Products = () => {
           <Image src={PROD2} alt='Antique Granite Steps in a Cape Cod cottage' width={150} height={150} />
           <Image src={PROD3} alt='Sierra Tan Steps in a Cape Cod yard' width={150} height={150} />
           <Image src={PROD4} alt='Pennsylvania Fieldstone Steps in a Cape Cod Yard' width={150} height={150} />
+        </div>
+      </div>
+    </div>
+
+    <div className='flex w-full justify-between px-[5%] py-[1%] mt-[5rem] flex-wrap gap-6'>
+      <div className='lg:flex-1 w-full'>
+        <Image src={PROD8} alt='Reclaimed Cobblestones in a Cape Cod driveway at a house in Chatham, Massachusetts' className='lg:w-300 lg:h-300 w-full h-full' />
+      </div>
+      <div className='flex-1'>
+        <h1 className='text-3xl'>Crafted Beauty & Durability: Cape Cod Hardscape Pavers</h1>
+        <p className='text-sm'>Transform your Cape Cod outdoor space with the timeless appeal and enduring strength of pavers. Unlike traditional materials, pavers offer unmatched versatility and resilience, perfectly suited for Cape Cod's weather conditions. They create a charming and inviting atmosphere for patios, walkways, driveways, and pool decks, all while requiring minimal maintenance.</p>
+        <div className='flex mt-[1rem] gap-3 flex-wrap'>
+          <Image src={PROD9} alt='Pine Hall Brick Pavers in a Cape Cod Drivewy' width={150} height={150} />
+          <Image src={PROD10} alt='City Hall Brick Pavers in a Cape Cod driveway' width={150} height={150} />
+          <Image src={PROD11} alt='KF Brick Pavers in a cape cod driveway' width={150} height={150} />
         </div>
       </div>
     </div>
